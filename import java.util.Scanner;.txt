@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int id = sc.nextInt();
+        String name = sc.next();
+        String branch = sc.next();
+        float salary = sc.nextFloat();
+        int experience = sc.nextInt();
+        
+        System.out.println("Employee ID:" + id);
+        System.out.println("Employee name:" + name);
+        System.out.println("Employee branch:" + branch);
+        System.out.println("Employee salary:" + salary);
+        System.out.println("Employee Experience:" + experience + "years");
+
+          sc.close();
+    }
+}
+101
+PAVITHRA
+AIDS
+20000
+2
+Employee ID:101
+Employee name:PAVITHRA
+Employee branch:AIDS
+Employee salary:20000.0
+Employee Experience:2years
