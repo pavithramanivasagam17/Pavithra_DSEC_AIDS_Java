@@ -1,37 +1,18 @@
-1.class Main {
+class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, java!");
-        System.out.println("Welcome to Progamming.");
-        System.out.println("My journey starts today.");
+        String name = "Pavithra";
+        int age = 20;
+        char grade = 'A';
+        boolean placementstatus = true;
+        
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Grade: " + grade);
+        System.out.println("Placement status: " + placementstatus);
     }
 }
-Hello, java!
-Welcome to Progamming.
-My journey starts today.
-
-2.class Main {
-    public static void main(String[] args) {
-        System.out.println("College: ABC Engineering college");
-        System.out.println("Department: Computer science");
-        System.out.println("Course: java Programming");
-    }
-}
-College: ABC Engineering college
-Department: Computer science
-Course: java Programming
-
-3.class Main {
-    public static void main(String[] args) {
-        System.out.println("Java is simple java is powerfull");
-    }
-}
-Java is simple java is powerfull
-4.class Main {
-    public static void main(String[] args) {
-        System.out.println("Name\t:Arun\ncourse\t: Java\nlevel\t: Beginner");
-    }
-}
-Name	:Arun
-course	: Java
-level	: Beginner
+Name: Pavithra
+Age: 20
+Grade: A
+Placement status: true
 
