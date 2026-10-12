@@ -26,3 +26,12 @@ Course: java Programming
     }
 }
 Java is simple java is powerfull
+4.class Main {
+    public static void main(String[] args) {
+        System.out.println("Name\t:Arun\ncourse\t: Java\nlevel\t: Beginner");
+    }
+}
+Name	:Arun
+course	: Java
+level	: Beginner
+
