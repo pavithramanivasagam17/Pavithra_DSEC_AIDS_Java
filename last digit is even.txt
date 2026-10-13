@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        String result = (Math.abs(n % 10) % 2 == 0) ? "Yes" : "No";
+
+        System.out.println(result);
+    }
+}
+Enter a number: -124
+Yes
