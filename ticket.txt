@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        int id = 10;
+        int ticket = 20;
+        id += ticket;
+        System.out.println(id);
+    }
+}
+30
