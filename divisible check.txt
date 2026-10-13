@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        int n = 15;
+
+        String result = (n % 3 == 0 && n % 5 == 0)
+                ? "Divisible by Both"
+                : "Not Divisible by Both";
+
+        System.out.println(result);
+    }
+}
+Divisible by Both
