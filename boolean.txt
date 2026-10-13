@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[] args) {
+        boolean id = true;
+        boolean ticket = false;
+        System.out.println(id && ticket);
+    }
+}
+false
