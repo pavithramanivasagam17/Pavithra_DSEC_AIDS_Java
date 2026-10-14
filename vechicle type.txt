@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc = new Scanner(System.in);
+        
+        int vehicletype = Sc.nextInt();
+        
+        if(vehicletype==2){
+            System.out.println("Parking charge 20Rs");
+        }
+        else{
+            System.out.println("Parking charge 50Rs"); 
+    }
+}
+} 
+1
+Parking charge 50Rs

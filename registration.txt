@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+ public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+       boolean isRegistered = sc.nextBoolean();
+       boolean isLoginVerified = sc.nextBoolean();
+
+        if (isRegistered) {
+            if (isLoginVerified) {
+                System.out.println("Access Granted");
+            } else {
+                System.out.println("Login Verification Requried");
+            }
+        } else {
+            System.out.println("Complete Registration First");
+        }
+    }
+ }
+true
+false
+Login Verification Requried

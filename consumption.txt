@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double waterusage = sc.nextDouble();
+
+        if(waterusage < 0) { 
+            System.out.println("Invalid Input");
+        } else if (waterusage <= 50){
+            System.out.println("low consumption");
+        } else if (waterusage <= 150){
+            System.out.println("normal consumption");
+        } else{
+        System.out.println("high consumption");
+        }
+    }
+}
+200
+high consumption

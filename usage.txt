@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc = new Scanner(System.in);
+
+        double data = Sc.nextDouble();
+
+        if(data < 0){
+            System.out.println("Invalid Input");
+        } else if (data <= 1){
+            System.out.println("Light Usage");
+        } else if (data <= 3){
+            System.out.println("Moderate Usage");
+        } else {
+            System.out.println("Heavy Usage");
+        }       
+} 
+}
+11
+Heavy Usage
