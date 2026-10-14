@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int units = sc.nextInt();
+
+        if (units < 0 ) {
+           System.out.println("Invalid units");
+        } else if (units < 100) {
+           System.out.println("Low consumption");
+        } else if (units < 200) {
+           System.out.println("Medium consumption");
+        } else if (units < 300) {
+           System.out.println("High consumption");
+        } else {
+           System.out.println("Very high consumption");       
+        }
+    }
+}
+200
+High consumption

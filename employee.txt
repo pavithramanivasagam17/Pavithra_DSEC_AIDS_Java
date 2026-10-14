@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int experience = sc.nextInt();
+
+        if (experience < 0 ) {
+           System.out.println("Invalid experience");
+        } else if (experience == 0) {
+           System.out.println("Fresher");
+        } else if (experience == 2) {
+           System.out.println("Junior");
+        } else if (experience == 5) {
+           System.out.println("Intermediate");
+        } else {
+           System.out.println("Senior");       
+        }
+    }
+}
+3
+Senior
