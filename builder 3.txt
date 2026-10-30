@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a word:");
+        String s = sc.nextLine();
+        StringBuilder sb = new StringBuilder(s);
+        if(sb.length() >= 3){
+            StringBuilder last = new StringBuilder(
+                sb.substring(sb.length() - 3)
+            );
+            last.reverse();
+            sb.replace(sb.length() - 3,sb.length(),last.toString());
+                System.out.println(sb);
+        } else {
+            System.out.println("Enter at least 3 characters");
+        }
+    }
+}
+Enter a word:
+pavithra
+pavitarh
